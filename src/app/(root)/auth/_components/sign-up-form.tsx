@@ -22,7 +22,9 @@ const SignUpForm = () => {
     },
   });
 
-  const onSubmit = async (values: SignUpSchemaType) => {};
+  const onSubmit = async (values: SignUpSchemaType) => {
+    console.log(values);
+  };
 
   return (
     <Form {...form}>

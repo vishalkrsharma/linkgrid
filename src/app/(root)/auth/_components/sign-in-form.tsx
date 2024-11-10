@@ -19,7 +19,9 @@ const SignInForm = () => {
     },
   });
 
-  const onSubmit = async (values: SignInSchemaType) => {};
+  const onSubmit = async (values: SignInSchemaType) => {
+    console.log(values);
+  };
 
   return (
     <Form {...form}>
